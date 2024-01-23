@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins";
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  width: 90%;
+}
+
+/*Nav bar styling starts here*/
+nav {
+  height: 75px;
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 25px;
+  color: aliceblue;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.logo:hover {
+  color: black;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 55%;
+}
