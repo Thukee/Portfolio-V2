@@ -44,6 +44,8 @@ nav {
 }
 .logo:hover {
   color: black;
+  font-size: 30px;
+  font-weight: 600;
 }
 .nav-links {
   display: flex;
@@ -63,4 +65,73 @@ nav {
   color: black;
   font-size: 22px;
   font-weight: 800;
+}
+.nav-links li a:active {
+  color: darkblue;
+}
+
+/*Header styling starts here*/
+
+header {
+  padding-top: 150px;
+}
+.header-img {
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+}
+
+.header-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.about-me {
+  margin-top: 20px;
+  text-align: left;
+}
+.about-me-lorem {
+  text-align: justify;
+}
+.header-right {
+  text-align: center;
+  margin: auto;
+}
+.header-action-area {
+  padding: 40px;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border: 2px solid;
+  border-radius: 200px;
+  padding: 6px;
+  width: 180px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover span {
+  padding-right: 25px;
+}
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
