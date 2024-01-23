@@ -52,3 +52,15 @@ nav {
   gap: 20px;
   width: 55%;
 }
+
+.nav-links li a {
+  color: azure;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.nav-links li a:hover {
+  color: black;
+  font-size: 22px;
+  font-weight: 800;
+}
