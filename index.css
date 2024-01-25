@@ -46,6 +46,7 @@ nav {
   color: black;
   font-size: 30px;
   font-weight: 600;
+  transition: 0.5s;
 }
 .nav-links {
   display: flex;
@@ -65,6 +66,7 @@ nav {
   color: black;
   font-size: 22px;
   font-weight: 800;
+  transition: 0.5s;
 }
 .nav-links li a:active {
   color: darkblue;
@@ -134,4 +136,45 @@ header {
 .btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+.btn:hover {
+  background-color: rgb(177, 177, 177);
+}
+.icon-social {
+  width: 42px;
+  border-radius: 10px;
+  transition: 0.75s;
+}
+.github {
+  border-radius: 21px;
+}
+.header-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.icon-social:hover {
+  background-color: rgb(194, 193, 193);
+}
+.icon-social github:hover {
+  background-color: rgb(194, 193, 193);
+}
+
+/*Education and Experience styling starts here */
+
+.edu-and-exp-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+.edu-and-exp-container p {
+  text-align: right;
+  margin-right: 120px;
+}
+.education-image {
+  width: 300px;
+}
+.experience-image {
+  width: 300px;
 }
