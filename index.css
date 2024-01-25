@@ -168,13 +168,36 @@ header {
   gap: 30px;
   align-items: center;
 }
-.edu-and-exp-container p {
-  text-align: right;
-  margin-right: 120px;
-}
 .education-image {
   width: 300px;
 }
 .experience-image {
-  width: 300px;
+  width: 275px;
+  margin-top: 30px;
+}
+.education-data {
+  margin-top: 30px;
+}
+.experience-data {
+  margin-top: 30px;
+}
+.global-title-p {
+  font-size: 17px;
+}
+.global-title-h1 {
+  font-size: 35px;
+}
+.edu-box {
+  border: 2px solid black;
+  height: 600px;
+  width: 500px auto;
+  text-align: center;
+  border-radius: 30px;
+}
+.exp-box {
+  border: 2px solid black;
+  height: 600px;
+  width: 500px auto;
+  text-align: center;
+  border-radius: 30px;
 }
