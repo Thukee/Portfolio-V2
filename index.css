@@ -26,7 +26,7 @@
 /*Nav bar styling starts here*/
 nav {
   height: 75px;
-  background-color: gray;
+  background-color: rgb(141, 141, 244);
   position: fixed;
   width: 100%;
   display: flex;
@@ -216,8 +216,8 @@ header {
 .icon-html,
 .icon-css,
 .icon-js {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .project-container {
