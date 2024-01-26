@@ -167,6 +167,7 @@ header {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   align-items: center;
+  margin-bottom: 50px;
 }
 .education-image {
   width: 300px;
@@ -200,4 +201,59 @@ header {
   width: 500px auto;
   text-align: center;
   border-radius: 30px;
+}
+
+/*Project styling starts here*/
+.project-html,
+.project-css,
+.project-js {
+  height: 350px;
+  width: 350px;
+}
+.icon-html,
+.icon-css,
+.icon-js {
+  height: 200px;
+  width: 200px;
+}
+
+.project-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  border: 2px solid black;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
 }
